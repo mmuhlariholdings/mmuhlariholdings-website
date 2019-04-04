@@ -1,0 +1,30 @@
+.menu-home {
+    list-style: none;
+    padding-left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-home li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-home li a {
+    color: #1498D5;
+    font-weight: initial;
+}
+
+.button-back-home {
+    position: fixed;
+    background: black;
+    margin-top: 20px;
+    color: white;
+}
+
+.button-back-home a {
+    padding: 20px;
+    display: inline-block;
+    font-weight: initial;
+}
