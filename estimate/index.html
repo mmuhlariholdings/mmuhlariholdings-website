@@ -18,8 +18,7 @@
     <meta property="og:site_name" content="M Muhlari Holdings (Pty) Ltd" />
     <meta property="og:description"
         content="At M Muhlari Holdings (Pty) Ltd we are dedicated to harnessing technology and building solutions shaped in Africa for the rest of the world." />
-    <meta property="og:image"
-        content="https://dewey.tailorbrands.com/production/brand_version_mockup_image/983/501361983_8ad134d1-aca5-4df0-898b-f4e560114cf5.png?cb=1516352488" />
+    <meta property="og:image" content="/assets/images/logo.png" />
 
     <link ref="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
@@ -27,523 +26,549 @@
     <link rel="stylesheet" href="/assets/stylesheets/style.css" />
     <link rel="stylesheet" href="/assets/stylesheets/custom.css" />
     <link rel="stylesheet" href="/assets/stylesheets/big-buttons.css" />
-    <link rel="icon" type="image/png"
-        href="https://dewey.tailorbrands.com/production/favicon/983/501361983_8ad134d1-aca5-4df0-898b-f4e560114cf5.png?cb=1516352488" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/assets/javascripts/calculator.js"></script>
+
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+
 </head>
 
 <body>
 
-    <header style="height:0;">
-        <nav class="container">
-            <a href="mailto:jobs@mmuhlariholdings.co.za">we are hiring java developers drop us an email with your cv to
-                apply</a>
-        </nav>
-    </header>
+    <form>
 
-    <div class="button-back-home">
-        <a href="/">&larr; Back Home</a>
-    </div>
+        <header style="height:0;">
+            <nav class="container">
+                <a href="mailto:jobs@mmuhlariholdings.co.za">we are hiring java developers drop us an email with your cv
+                    to
+                    apply</a>
+            </nav>
+        </header>
 
-    <div class="button-pricing">
-        <a href="/">
-            <strong>Total Estimate</strong> R40 000<br />
-            <small>click to generate estimate</small>
-        </a>
-    </div>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>How Much Will It Cost?</h2>
-                <div class="separator"></div>
-                <p>
-                    Our app cost calculator is desgined to calculate the total costs of building your app. Select the
-                    options and features you want below and let us help you get started on your journey building your
-                    dream app in less than 5 minutes.
-                </p>
-                <p style="color: gray;">
-                    0 / 13
-                </p>
-            </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
+        <div class="button-back-home">
+            <a href="/">&larr; Back Home</a>
         </div>
-    </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>What platforms should your app run on?</h2>
-                <div class="separator"></div>
-                <p>
-                    Will your app run on iOS or on Android? There are benefits to prioritising certain platforms.
-                    Android has the wider audience reach but users tend to be less engaged whereas iOS has a more
-                    narrower user base but they tend to be more engaged.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="checkbox" name="platforms" value="30000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/android.png" />
-                                Android
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="platforms" value="30000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/apple.png" />
-                                iOS
-                            </span>
-                        </div>
-                    </label>
+        <div class="button-pricing">
+            <a href="/">
+                <strong>Total Estimate</strong> <span class="estimate-display"></span><br />
+                <small>click to generate estimate</small>
+            </a>
+        </div>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>How Much Will It Cost?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Our app cost calculator is desgined to calculate the total costs of building your app. Select
+                        the
+                        options and features you want below and let us help you get started on your journey building
+                        your
+                        dream app in less than 5 minutes.
+                    </p>
+                    <p style="color: gray;">
+                        0 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    1 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>What kind of login should the app use?</h2>
-                <div class="separator"></div>
-                <p>
-                    Your app does not have to have a login but in some cases where you would like to maintain a
-                    relationship with your users and track their interactions on and off the app some form of
-                    authentication would help. You can opt for email login or social media login if you would like to
-                    take advantage of some integrations from Twitter and Facebook.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="checkbox" name="login" value="15000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/email.png" />
-                                Email
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="login" value="20000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/like.png" />
-                                Social
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>What platforms should your app run on?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Will your app run on iOS or on Android? There are benefits to prioritising certain platforms.
+                        Android has the wider audience reach but users tend to be less engaged whereas iOS has a more
+                        narrower user base but they tend to be more engaged.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="checkbox" name="platforms" value="30000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/android.png" />
+                                    Android
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="checkbox" name="platforms" value="30000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/apple.png" />
+                                    iOS
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        1 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    2 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>Should users be able to manage profiles?</h2>
-                <div class="separator"></div>
-                <p>
-                    Will your users be able to interact with each other in anyway and will they be able to modify their
-                    presence on their app? It is important to remember that some of this information may be viewed
-                    publicly and may have implications on the listing of your app on various app stores.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="profiles" value="18000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="profiles" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>What kind of login should the app use?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Your app does not have to have a login but in some cases where you would like to maintain a
+                        relationship with your users and track their interactions on and off the app some form of
+                        authentication would help. You can opt for email login or social media login if you would like
+                        to
+                        take advantage of some integrations from Twitter and Facebook.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="checkbox" name="login" value="15000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/email.png" />
+                                    Email
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="checkbox" name="login" value="20000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/like.png" />
+                                    Social
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        2 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    3 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>How should the app make money?</h2>
-                <div class="separator"></div>
-                <p>
-                    Do you expect users to pay for your application from the app stores or do you expect to make money
-                    from in-app purchases. They way in which you monetise your app can have an affect on whether
-                    users eventually download your app so it is important to understand your audience if you expect to
-                    make money from direct usage or sales of your app.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="checkbox" name="money" value="8000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/paid.png" />
-                                Paid
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="money" value="12000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/in-app.png" />
-                                In-App
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>Should users be able to manage profiles?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Will your users be able to interact with each other in anyway and will they be able to modify
+                        their
+                        presence on their app? It is important to remember that some of this information may be viewed
+                        publicly and may have implications on the listing of your app on various app stores.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="profiles" value="18000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="profiles" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        3 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    4 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>Will users be able to rate or review things?</h2>
-                <div class="separator"></div>
-                <p>
-                    Do you have content or products within the app that allow users to rate or review these items?
-                    Please be aware that the complexity of your rating and review system will have a direct impact on
-                    your budget.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="reviews" value="18000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="reviews" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>How should the app make money?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Do you expect users to pay for your application from the app stores or do you expect to make
+                        money
+                        from in-app purchases. They way in which you monetise your app can have an affect on whether
+                        users eventually download your app so it is important to understand your audience if you expect
+                        to
+                        make money from direct usage or sales of your app.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="checkbox" name="money" value="8000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/paid.png" />
+                                    Paid
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="checkbox" name="money" value="12000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/in-app.png" />
+                                    In-App
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        4 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    5 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>Should the app integrate to a website?</h2>
-                <div class="separator"></div>
-                <p>
-                    Do you have an existing website or service that you will require us to integrate into your
-                    application. This will require the building of an API or interface that allows us to communicate
-                    with this service or website.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="integrations" value="22000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="integrations" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>Will users be able to rate or review things?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Do you have content or products within the app that allow users to rate or review these items?
+                        Please be aware that the complexity of your rating and review system will have a direct impact
+                        on
+                        your budget.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="reviews" value="18000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="reviews" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        5 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    6 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>How pretty should your app look?</h2>
-                <div class="separator"></div>
-                <p>
-                    Building a very beautiful requires a lot of time and resources and this requires a bigger budget.
-                    This means that if you want custom animations, buttons and gestures you will need to be prepared to
-                    invest more.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="pretty" value="15000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/stock.png" />
-                                Stock
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="pretty" value="25000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/beautiful.png" />
-                                Beautiful
-                            </span>
-                        </div>
-                    </label>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>Should the app integrate to a website?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Do you have an existing website or service that you will require us to integrate into your
+                        application. This will require the building of an API or interface that allows us to communicate
+                        with this service or website.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="integrations" value="22000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="integrations" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        6 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    7 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>Does your app need an icon designed?</h2>
-                <div class="separator"></div>
-                <p>
-                    Your app will need to be memorable and stand out on the app store and a users device. Designing a
-                    please icon requires a bit more money but will help you stand out!
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="icon" value="15000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="icon" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>How pretty should your app look?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Building a very beautiful requires a lot of time and resources and this requires a bigger
+                        budget.
+                        This means that if you want custom animations, buttons and gestures you will need to be prepared
+                        to
+                        invest more.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="pretty" value="15000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/stock.png" />
+                                    Stock
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="pretty" value="25000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/beautiful.png" />
+                                    Beautiful
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        7 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    8 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>Will you be adding and managing content yourself?</h2>
-                <div class="separator"></div>
-                <p>
-                    Are you building a platform where you will be regularly adding content such as products or articles?
-                    If this is the case then you will need a portal to do this for you and your employees.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="self-content" value="20000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="self-content" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>Does your app need an icon designed?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Your app will need to be memorable and stand out on the app store and a users device. Designing
+                        a
+                        please icon requires a bit more money but will help you stand out!
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="icon" value="15000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="icon" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        8 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    9 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>Will users be adding and managing content?</h2>
-                <div class="separator"></div>
-                <p>
-                    Are you building a platform where your users will be regularly adding content such as posts, images
-                    or articles? If this is the case than it is important to remember that you will need capabilities to
-                    moderate and review user content and be able to take it down.
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="user-content" value="25000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="user-content" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>Will you be adding and managing content yourself?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Are you building a platform where you will be regularly adding content such as products or
+                        articles?
+                        If this is the case then you will need a portal to do this for you and your employees.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="self-content" value="20000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="self-content" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        9 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    10 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>Does your app require e-commerce functionality?</h2>
-                <div class="separator"></div>
-                <p>
-                    Does your app require a shopping cart or the ability for users to be able to make payments or check
-                    out directly in the app? This could be via a credit card, coupons or other form of electronic
-                    payments facilitated on the app?
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="e-commerce" value="40000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="e-commerce" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>Will users be adding and managing content?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Are you building a platform where your users will be regularly adding content such as posts,
+                        images
+                        or articles? If this is the case than it is important to remember that you will need
+                        capabilities to
+                        moderate and review user content and be able to take it down.
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="user-content" value="25000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="user-content" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        10 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    11 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="content">
-                <h2>Should your app have chat capabilities?</h2>
-                <div class="separator"></div>
-                <p>
-                    Do you require chat capabilities such as being able to let your users communicate with each other or
-                    the ability to offer support to your users on the app?
-                </p>
-                <div class="middle">
-                    <label>
-                        <input type="radio" name="chat" value="20000" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/yes.png" />
-                                Yes
-                            </span>
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="chat" value="0" />
-                        <div class="choice-made box">
-                            <span>
-                                <img src="/assets/icons/no.png" />
-                                No
-                            </span>
-                        </div>
-                    </label>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>Does your app require e-commerce functionality?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Does your app require a shopping cart or the ability for users to be able to make payments or
+                        check
+                        out directly in the app? This could be via a credit card, coupons or other form of electronic
+                        payments facilitated on the app?
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="e-commerce" value="40000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="e-commerce" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        11 / 13
+                    </p>
                 </div>
-                <p style="color: gray;">
-                    12 / 13
-                </p>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="content">
-                <h2>Congratulations!</h2>
-                <div class="separator"></div>
-                <p>
-                    You have completed our estimate generator and you should <strong>see the estimated cost of your
-                        application
-                        on the bottom left side of this page where you can click to download a pdf version.</strong> It
-                    is important to remember that this is just an estimate
-                    based on our past experiences delivering projsects for clients and the actual cost could vary
-                    depending on the complexity and functionality that you eventual want for your app.
-                </p>
-                <p style="color: gray;">
-                    13 / 13
-                </p>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <h2>Should your app have chat capabilities?</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Do you require chat capabilities such as being able to let your users communicate with each
+                        other or
+                        the ability to offer support to your users on the app?
+                    </p>
+                    <div class="middle">
+                        <label>
+                            <input class="radio-options" type="radio" name="chat" value="20000" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/yes.png" />
+                                    Yes
+                                </span>
+                            </div>
+                        </label>
+                        <label>
+                            <input class="radio-options" type="radio" name="chat" value="0" />
+                            <div class="choice-made box">
+                                <span>
+                                    <img src="/assets/icons/no.png" />
+                                    No
+                                </span>
+                            </div>
+                        </label>
+                    </div>
+                    <p style="color: gray;">
+                        12 / 13
+                    </p>
+                </div>
+                <div class="img" style="background-image: url('/assets/images/forensic-pathology-gauteng.png');"></div>
             </div>
-            <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
-        </div>
-    </section>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="content">
+                    <h2>Congratulations!</h2>
+                    <div class="separator"></div>
+                    <p>
+                        You have completed our estimate generator and you should <strong>see the estimated cost of your
+                            application
+                            on the bottom left side of this page where you can click to download a pdf version.</strong>
+                        It
+                        is important to remember that this is just an estimate
+                        based on our past experiences delivering projsects for clients and the actual cost could vary
+                        depending on the complexity and functionality that you eventual want for your app.
+                    </p>
+                    <h1 class="estimate-display"></h1>
+                    <p style="color: gray;">
+                        13 / 13
+                    </p>
+                </div>
+                <div class="img" style="background-image: url('/assets/images/marheyi.png');"></div>
+            </div>
+        </section>
+
+    </form>
 
 </body>
 
