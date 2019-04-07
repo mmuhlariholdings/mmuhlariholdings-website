@@ -1,0 +1,103 @@
+.middle {
+  width: 100%;
+  text-align: center;
+}
+.middle input[type="radio"] {
+  display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  background-color: #007e90;
+}
+.middle input[type="radio"]:checked + .box span {
+  color: white;
+  transform: translateY(20px);
+}
+.middle input[type="radio"]:checked + .box span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.middle input[type="radio"]:checked + .box img {
+    display: none;
+  }
+  .middle input[type="radio"] + .box img {
+    margin: -70px auto 0px;
+    display: inherit;
+    width: 70px;
+  }
+.middle input[type="checkbox"] {
+    display: none;
+  }
+  .middle input[type="checkbox"]:checked + .box {
+    background-color: #007e90;
+  }
+  .middle input[type="checkbox"]:checked + .box span {
+    color: white;
+    transform: translateY(2s0px);
+  }
+  .middle input[type="checkbox"]:checked + .box span:before {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .middle input[type="checkbox"]:checked + .box img {
+    display: none;
+  }
+  .middle input[type="checkbox"] + .box img {
+    margin: -70px auto 0px;
+    display: inherit;
+    width: 70px;
+  }
+.middle .box {
+    /* border: 1px solid #2c3e50; */
+    border-radius: 3px;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-weight: 900;
+}
+.middle .box:active {
+  transform: translateY(10px);
+}
+.middle .box span {
+  position: absolute;
+  transform: translate(0, 20px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 14px;
+  user-select: none;
+  color: #2c3e50;
+}
+.middle .box span:before {
+  font-size: 60px;
+  font-family: FontAwesome;
+  display: block;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .choice-made span:before {
+  content: "\f058";
+}
+.middle p {
+  color: #fff;
+  font-family: "Dax", sans-serif;
+  font-weight: 400;
+}
+.middle p a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #fff;
+}
+.middle p span:after {
+  content: "\f0e7";
+  font-family: FontAwesome;
+  color: yellow;
+}

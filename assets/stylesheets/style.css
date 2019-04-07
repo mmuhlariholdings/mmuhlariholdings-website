@@ -135,6 +135,10 @@ section .social .fa.fa-apple {
     background: #34495e
 }
 
+section .social .fa.fa-file-pdf-o {
+    background: #e74c3c
+}
+
 header,footer {
     background: #1f1f1f;
     color: white;

@@ -19,12 +19,32 @@
 .button-back-home {
     position: fixed;
     background: black;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
+    z-index: 100;
 }
 
 .button-back-home a {
     padding: 20px;
     display: inline-block;
     font-weight: initial;
+}
+
+.button-pricing {
+    text-align: right;
+    position: fixed;
+    background: #ED4C67;
+    margin-bottom: 30px;
+    color: white;
+    bottom: 0;
+    z-index: 100;
+}
+
+.button-pricing a {
+    padding: 20px;
+    display: inline-block;
+}
+
+.button-pricing a strong {
+    font-weight: bold;
 }
