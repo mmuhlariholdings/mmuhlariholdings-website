@@ -48,3 +48,51 @@
 .button-pricing a strong {
     font-weight: bold;
 }
+
+.estimate-form input[type="submit"]:hover,
+.estimate-form input[type="submit"]:focus {
+  color: #FFF;
+  background-color: #B9374D;
+  border-color: #B9374D;
+}
+
+.estimate-form input[type="submit"] {
+    margin-bottom: 10px;
+    color: #FFF;
+    background-color: #ED4C67;
+    border-color: #ED4C67;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.estimate-form input[type="email"]:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+}
+
+.estimate-form input[type="email"] {
+    margin-bottom: 10px;
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
