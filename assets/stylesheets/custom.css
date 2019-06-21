@@ -40,13 +40,36 @@
     z-index: 100;
 }
 
-.button-pricing a {
+.button-pricing button {
     padding: 20px;
     display: inline-block;
+    font-size: 16px;
+    background: #ED4C67;
+    color: white;
+    text-align: right;
+    cursor: pointer;
+    border: none;
+    font-weight: 200;
 }
 
-.button-pricing a strong {
-    font-weight: bold;
+.button-pricing button:hover {
+    text-decoration: underline;
+}
+
+.button-pricing button strong {
+    font-weight: 500;
+}
+
+.emailify {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    text-align: center;
 }
 
 .estimate-form input[type="submit"]:hover,
