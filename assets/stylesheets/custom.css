@@ -16,6 +16,15 @@
     font-weight: initial;
 }
 
+@media only screen and (max-width: 760px) {
+    .menu-home li {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 .button-back-home {
     position: fixed;
     background: black;
@@ -70,6 +79,20 @@
     background-clip: padding-box;
     border: 1px solid #ced4da;
     text-align: center;
+    margin: 10px 0px;
+}
+
+.selectify{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .estimate-form input[type="submit"]:hover,
