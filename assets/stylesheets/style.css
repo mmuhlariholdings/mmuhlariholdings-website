@@ -147,6 +147,10 @@ section .social .fa.fa-whatsapp {
     background: green;
 }
 
+section .social .fa.fa-github {
+    background: black;
+}
+
 header,footer {
     background: #1f1f1f;
     color: white;
