@@ -143,6 +143,10 @@ section .social .fa.fa-envelope-o {
     background: #bdc3c7
 }
 
+section .social .fa.fa-whatsapp {
+    background: green;
+}
+
 header,footer {
     background: #1f1f1f;
     color: white;
