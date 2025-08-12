@@ -1,9 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mmuhlar3/public_html/
-    - export LOGFILE=$DEPLOYPATH/deploy.log
-    - echo "=== Deployment started on $(date) ===" >> $LOGFILE
-    - /usr/bin/rsync -av --delete --exclude=".git" --exclude=".cpanel.yml" ./ $DEPLOYPATH | tee -a $LOGFILE
-    - echo "=== Deployment finished on $(date) ===" >> $LOGFILE
-    - echo "" >> $LOGFILE
+    - export DEPLOYPATH=/home/mmuhlari3/public_html/
+    - /bin/cp -R * $DEPLOYPATH
