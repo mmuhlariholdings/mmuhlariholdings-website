@@ -1,7 +1,7 @@
 {
   "name": "mmuhlariholdings-website",
   "version": "1.0.0",
-  "description": "At M Muhlari Holdings (Pty) Ltd we are dedicated to harnessing technology and building African solutions that shape the world.",
+  "description": "At M Muhlari Holdings (Pty) Ltd we harness technology to build African solutions that shape the world.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
