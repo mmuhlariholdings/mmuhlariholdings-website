@@ -23,6 +23,11 @@ a:active,a:hover {
     text-decoration: underline
 }
 
+.global-tab {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     margin: 0 auto;
     width: 100%;
