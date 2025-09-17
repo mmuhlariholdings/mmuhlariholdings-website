@@ -40,7 +40,7 @@ section .container {
 
 section .container .img,section .container .content {
     width: 50%;
-    min-height: 40rem;
+    min-height: 30rem;
     padding: 4rem 6rem
 }
 
